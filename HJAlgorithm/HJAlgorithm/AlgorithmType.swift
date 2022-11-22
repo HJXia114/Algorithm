@@ -20,7 +20,7 @@ enum AlgorithmType: CaseIterable {
     var viewController:UIViewController {
         switch self {
         case .test:
-            let vc = UIViewController()
+            let vc = FirstViewController()
             return vc
         }
     }
